@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="units.js"></script>
     <title>Unit Conversion</title>
 </head>
 <body>
@@ -28,8 +29,8 @@
                     <fieldset>
                         <legend>Temperature</legend>
                         <label for="Temperature">Celsius</label><br/>
-                        <input type="number" id="celsuis"> C <br/>
-                        <button onClick="Temperature()">Convert</button><br/><br>
+                        <input type="number" id="celcius"> C <br/>
+                        <button onClick="tempConversion()">Convert</button><br/><br>
                         <label for="Temperature">Farenheit</label><br/>
                         <input type="number" id="farenheit"> F<br/>
                     </fieldset>
@@ -55,8 +56,8 @@
                         <legend>Weight</legend>
                         <label for="Weight">kilogram</label><br/>
                         <input type="number" id="kg"> kg <br/>
-                        <button onClick="weight()">Convert</button><br/><br>
-                        <label for="Temperature">pound</label><br/>
+                        <button onClick="weightConversion()">Convert</button><br/><br>
+                        <label for="weight">pound</label><br/>
                         <input type="number" id="lbs"> lbs<br/>
                     </fieldset>
                 </article>
@@ -80,8 +81,8 @@
                     <fieldset>
                         <legend>Distance</legend>
                         <label for="Distance">kilometers</label><br/>
-                        <input type="number" id="kg"> km <br/>
-                        <button onClick="distance()">Convert</button><br/><br>
+                        <input type="number" id="km"> km <br/>
+                        <button onClick="distanceConversion()">Convert</button><br/><br>
                         <label for="Distance">miles</label><br/>
                         <input type="number" id="mi"> mi<br/>
                     </fieldset>
@@ -95,5 +96,6 @@
             </div>
         </section>
     </div>
+
 </body>
 </html>
