@@ -1,17 +1,18 @@
 function tempConversion () {
-    var c = document.getElementById("celcius").value;
-    var f = farenheitTemp = (c * 9/5) + 32;
-    document.getElementById("farenheit").value = f;
+    const c = document.getElementById("celcius").value;
+    const f = (c * 9/5) + 32;
+    document.getElementById("farenheit").value = f.toFixed(2);
 }
 
+
 function weightConversion () {
-    var kg = document.getElementById("kg").value;
-    var lbs = pounds = kg * 2.20462;
-    document.getElementById("lbs").value = lbs;
+    const kg = document.getElementById("kg").value;
+    const lbs = pounds = kg * 2.20462;
+    document.getElementById("lbs").value = lbs.toFixed(2);
 }
 
 function distanceConversion () {
-    var km = document.getElementById("km").value;
-    var mi = km * 0.621371;
-    document.getElementById("mi").value = mi;
+    const km = document.getElementById("km").value;
+    const mi = km * 0.621371;
+    document.getElementById("mi").value = mi.toFixed(2);
 }
